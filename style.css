@@ -1,0 +1,22 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    padding: 70px 70px 70px 24px;
+    background-color: #F5cf06;
+}
+header{
+    background-color: tomato;
+}
+main{
+    background-color: plum;
+}
+footer{
+    background-color: aqua;
+}
