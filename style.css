@@ -10,10 +10,15 @@ body{
     grid-template-rows: 100px 1fr 50px;
     padding: 70px 70px 70px 24px;
     background-color: #F5CF06;
+    color: #8e4106;
 }
-header{
-    background-color: tomato;
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
+
 main{
     background-color: plum;
 }
