@@ -46,3 +46,24 @@ main{
     color: #fff5;
     z-index: -1;
 }
+.description{
+    place-self: end start;
+}
+.description__title{
+    font-size: 64px;
+}
+.description__text{
+    font-size: 20px;
+    width: 500px;
+}
+.action{
+    place-self: end;
+    background-color: #8e4106;
+    width: 400px;
+    height: 100px;
+    color: #fff;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
