@@ -1,19 +1,20 @@
 /* reset */
 *{
     margin: 0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
+
 body{
     height: 100vh;
     display: grid;
-    grid-template-rows: 100px 1fr 50px;
+    grid-template-rows: 100px 1fr 100px;
     padding: 70px 70px 24px 70px;
     background-color: #F5CF06;
-    color: #8e4106;
+    color: #8E4106;
     font-family: 'Righteous', cursive;
-}
 
+}
 .logo{
     display: flex;
     align-items: center;
@@ -21,12 +22,12 @@ body{
 }
 .logo__text{
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 100;
 }
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
 }
 .title{
     position: relative;
@@ -38,11 +39,11 @@ main{
     color: #fff;
 }
 .title__transparent{
+    top: 50%;
     position: absolute;
     font-size: 27vw;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%,-80%);
     color: #fff5;
     z-index: -1;
 }
@@ -58,7 +59,7 @@ main{
 }
 .action{
     place-self: end;
-    background-color: #8e4106;
+    background-color: #8E4106;
     width: 400px;
     height: 100px;
     color: #fff;
@@ -66,4 +67,16 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.pikachu-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
